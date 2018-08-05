@@ -3,8 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
-
-
+    private const bool V = false;
     public float speed;
     public Text countText;
     public Text winText;
