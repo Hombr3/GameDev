@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     public Text countText;
     public Text winText;
+    public AudioClip coinSound;
+    public AudioSource coinSoundSource;
 
     private int count;
     private Rigidbody rb;
@@ -16,6 +18,7 @@ public class PlayerController : MonoBehaviour {
         count = 0;
         SetCountText();
         winText.text="";
+        coinSoundSource.clip = coinSound;
 }
 
     void FixedUpdate() {
@@ -31,7 +34,16 @@ public class PlayerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             count = count + 1;
             speed = speed + 1;
+            coinSoundSource.Play();
             SetCountText();
+        }
+        if (count >= 10)
+        {
+            if (other.gameObject.CompareTag("PowerUp"))
+            {
+                other.gameObject.SetActive(false);
+                speed = speed + 25;
+            }
         }
 
     }
