@@ -37,12 +37,12 @@ public class PlayerController : MonoBehaviour {
             coinSoundSource.Play();
             SetCountText();
         }
-        if (count >= 10)
+        if (count >= 11)
         {
             if (other.gameObject.CompareTag("PowerUp"))
             {
                 other.gameObject.SetActive(false);
-                speed = speed + 25;
+                speed = speed + 50;
             }
         }
 

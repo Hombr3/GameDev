@@ -1084,6 +1084,11 @@ Prefab:
       propertyPath: coinSoundSource
       value: 
       objectReference: {fileID: 204653457}
+    - target: {fileID: 23082011212575570, guid: 41716607462551a4987f0ab2795e4b30,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 630b3e80a19daba4293c1e6f59ae3f86, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41716607462551a4987f0ab2795e4b30, type: 2}
   m_IsPrefabAsset: 0
