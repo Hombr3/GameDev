@@ -64,6 +64,15 @@
     <Compile Include="Assets\Scipts\CamaraController.cs" />
     <Compile Include="Assets\Scipts\PlayerController.cs" />
     <Compile Include="Assets\Scipts\Rotator.cs" />
+    <None Include="Assets\Materials\Shaders\Wood.shader" />
+    <None Include="Assets\Materials\Shaders\Grass.shader" />
+    <None Include="Assets\Materials\Shaders\Ice.shader" />
+    <None Include="Assets\Materials\Shaders\Rocks.shader" />
+    <None Include="Assets\Materials\Shaders\Snow.shader" />
+    <None Include="Assets\Materials\Shaders\Leaf.shader" />
+    <None Include="Assets\Materials\Shaders\Bark.shader" />
+    <None Include="Assets\Materials\Shaders\Wall.shader" />
+    <None Include="Assets\Materials\Shaders\Mineral.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/GitHub/GameDevNew/GameDev/Roll a Ball/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
