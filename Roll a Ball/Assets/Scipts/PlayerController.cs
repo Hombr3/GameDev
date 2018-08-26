@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour {
         if (count >= 11)
         {
             if (other.gameObject.CompareTag("PowerUp"))
-            {
+            {  
                 other.gameObject.SetActive(false);
                 speed = speed + 50;
             }
